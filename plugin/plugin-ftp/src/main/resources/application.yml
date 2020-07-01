@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: plugin-ftp
+  devtools:
+    restart:
+      enabled: false
+server:
+  port: 8080
+  servlet:
+    context-path: /pluginFtp
+
+ftp:
+  host: 192.168.0.127
+  port: 21
+  username: ftptest
+  password: 123456
+  #µÿ÷∑
+  projectRoot: /ftp/ftp_mini/
+
