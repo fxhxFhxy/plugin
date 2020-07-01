@@ -49,6 +49,7 @@
     <modules>
         <module>plugin-common</module>
         <module>plugin-ftp</module>
+        <module>plugin-redis</module>
     </modules>
 
 </project>
