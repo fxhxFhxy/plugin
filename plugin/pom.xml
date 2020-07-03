@@ -50,6 +50,7 @@
         <module>plugin-common</module>
         <module>plugin-ftp</module>
         <module>plugin-redis</module>
+        <module>plugin-mybatis</module>
     </modules>
 
 </project>

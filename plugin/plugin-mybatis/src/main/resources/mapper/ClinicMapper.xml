@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cb.mapper.ClinicMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.cb.entity.Clinic">
+        <id column="clinic_id" property="clinicId" />
+        <result column="clinic_name" property="clinicName" />
+        <result column="city_id" property="cityId" />
+        <result column="province" property="province" />
+        <result column="city" property="city" />
+        <result column="area" property="area" />
+        <result column="clinic_adress" property="clinicAdress" />
+        <result column="clinic_phone" property="clinicPhone" />
+        <result column="clinic_status" property="clinicStatus" />
+        <result column="inquire_period" property="inquirePeriod" />
+        <result column="clinic_img" property="clinicImg" />
+        <result column="clinic_role" property="clinicRole" />
+        <result column="stock_role" property="stockRole" />
+        <result column="admin_id" property="adminId" />
+        <result column="audit_status" property="auditStatus" />
+        <result column="is_test" property="isTest" />
+        <result column="clinic_create_time" property="clinicCreateTime" />
+        <result column="graded" property="graded" />
+        <result column="clinic_level" property="clinicLevel" />
+        <result column="longitude" property="longitude" />
+        <result column="latitude" property="latitude" />
+        <result column="clinic_introduction" property="clinicIntroduction" />
+        <result column="is_online" property="isOnline" />
+    </resultMap>
+
+</mapper>
